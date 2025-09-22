@@ -249,11 +249,10 @@ Function Contact Map
 			var infowindow = new google.maps.InfoWindow({
 				content: contentString
 			});	
-			var companyImage = new google.maps.MarkerImage('images/marker.png',
-				new google.maps.Size(58,63),<!-- Width and height of the marker -->
+			var companyImage = new google.maps.MarkerImage('images/marker.png')
+				new google.maps.Size(58,63),
 				new google.maps.Point(0,0),
-				new google.maps.Point(35,20)<!-- Position of the marker -->
-			);
+				new google.maps.Point(35,20)
 			var companyPos = new google.maps.LatLng(43.270441,6.640888);	
 			var companyMarker = new google.maps.Marker({
 				position: companyPos,
