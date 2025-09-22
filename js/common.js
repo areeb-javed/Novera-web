@@ -863,8 +863,8 @@ Function Scroll Effects
 					duration: 0.3,
 					borderWidth: '2px',
 					scale: 1.4,
-					borderColor: "#fa821d",
-					backgroundColor: "#fa821d"
+					borderColor: "#881dfaff",
+					backgroundColor: "#881dfaff"
 				});
 				gsap.to('#ball-loader', {
 					duration: 0.2,

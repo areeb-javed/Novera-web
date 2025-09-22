@@ -41,11 +41,11 @@ Function Contact Map
 	function ContactMap() {	
 	
 		if( jQuery('#map_canvas').length > 0 ){					
-			var latlng = new google.maps.LatLng(43.270441,6.640888);
+			var latlng = new google.maps.LatLng(25.2854,51.5310);
 			var settings = {
 				zoom: 15,
 				disableDefaultUI: true,
-				center: new google.maps.LatLng(43.270441,6.640888),
+				center: new google.maps.LatLng(25.2854,51.5310),
 				mapTypeControl: false,
 				scrollwheel: false,
 				draggable: true,
